@@ -1,0 +1,109 @@
+ /*utility overides*/
+ li {
+ 	margin-left: 10px;
+ 	font-size: 22px;
+ }
+
+ body {
+ 	background-color: #fff
+ }
+
+.logo {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+/* navigation global styling */
+
+#main-nav ul {
+	list-style: none;
+	position: relative;
+	text-align: center;
+	padding: 30px 0px;
+	margin: 0 auto;
+	height: 80px;
+}
+
+.nav-item {
+	display: inline;
+}
+
+#about {
+	padding-top: 15px
+}
+
+/*.navigation {*/
+	position: relative;
+	padding: 20px 0px;
+	width: 400px;
+	height: 19px;
+	margin: 0 auto;
+}
+
+.content-container {
+	margin: 0 auto
+}
+
+.hr {
+	color: #C4CBB7;
+	background-color: #C4CBB7;
+	height: 1px;
+	border-width: 0px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.footer {
+ 	margin: 0 auto;
+}
+
+p.clear {
+	clear:both;
+	padding-top:20px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+
+#text {
+	padding-left: 2px;
+	margin-left: 0px;
+}
+
+#image {
+	padding-top: 5px;
+	padding-right: 0px;
+}
+.space {
+	padding: 10px 0px 5px 0px;
+}
+
+#collection-text{
+	text-align: center;
+	font-size: 18px;
+}
+
+#collection-image {
+padding-left: 70px;
+}
+
+/*SLIDER*/
+
+#orbit-wrapper {
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.orbit-wrapper .timer {
+	display: none;
+}
+
+p {
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+
+
