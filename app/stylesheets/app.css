@@ -5,14 +5,16 @@
  }
 
  body {
- 	background-color: #fff
- }
+ 	/*background: #f9fbf4;*/
+ 	background: #fff;
+ 	}
 
 .logo {
-	position: relative;
+	/*float: left;*/
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 20px;
+	padding-top:10px;
+	width:450px;
 }
 /* navigation global styling */
 
@@ -29,20 +31,28 @@
 	display: inline;
 }
 
-#about {
-	padding-top: 15px
+a {
+	/*color:#8BA486*/
+	/*color:#BEA586;*/
+	color:#381E0B;
+	/*color: #9694B9;*/
 }
 
-/*.navigation {*/
+a:hover {
+	color: black;
+}
+
+/*.navigation*/ {
 	position: relative;
 	padding: 20px 0px;
 	width: 400px;
 	height: 19px;
 	margin: 0 auto;
 }
-
-.content-container {
-	margin: 0 auto
+	
+.container {
+	width: 940px;
+	margin: 0 auto;
 }
 
 .hr {
@@ -86,6 +96,94 @@ p.clear {
 
 #collection-image {
 padding-left: 70px;
+}
+
+
+/*About Page*/
+#about {
+	padding-top: 15px
+}
+
+/*Collection Page*/
+.border {
+	border-bottom: 1px dashed #D9D4D0;
+	
+}
+
+/*Press Image Page*/
+
+/*Medium Image Height*/
+.image-med img {
+	min-height: 11em;
+	border: 1px solid #ddd;
+	padding: 2px;
+	background-color: #f6f6f6;
+	/*-moz-box-shadow: 0 0 2px 2px #D9CEB2;
+	-webkit-box-shadow: 0 0 2px 2px #D9CEB2;
+	box-shadow: 0 0 2px 2px #D9CEB2;*/
+}
+.image-med img .resize {
+	width: auto;
+	height: 11em;
+}
+
+.image-med{
+	min-height:11em;
+}
+/*Tall Image Height*/
+.image-tall {
+	height:16em;
+}
+
+.image-tall img {
+	min-height: 16em;
+	border: 1px solid #ddd;
+	padding: 2px;
+	background-color: #f6f6f6;
+	/*-moz-box-shadow: 0 0 2px 2px #D9CEB2;
+	-webkit-box-shadow: 0 0 2px 2px #D9CEB2;
+	box-shadow: 0 0 2px 2px #D9CEB2;*/
+}
+.image-tall img .resize {
+	width: auto;
+	height: 16em;
+}
+
+/*Short Image Height*/
+.image-short img {
+	
+}
+	/*-moz-box-shadow: 0 0 2px 2px #D9CEB2;
+	-webkit-box-shadow: 0 0 2px 2px #D9CEB2;
+	box-shadow: 0 0 2px 2px #D9CEB2;*/
+.image-short img.resize {
+	width: auto;
+	height: 5em;
+}
+.image-short {
+	height: 5em;
+	min-height: 5em;
+	border: 1px solid #ddd;
+	padding: 2px;
+	background-color: #f6f6f6;
+}
+
+
+/* White-space between columns */
+.column, .columns {
+	border: .5em solid #fff;
+}
+
+/* Images */
+/*.cover {*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	/* Hide Text */
+	text-indent: 120%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 /*SLIDER*/
