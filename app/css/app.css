@@ -1,0 +1,103 @@
+
+/*Overides*/
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+
+/*Page Styling*/
+.header {
+	padding-left:25px;
+	position: fixed;
+	z-index: 100;
+	top: 5px;
+	left: 10px;
+}
+
+.content-container {
+	width: 800px;
+	float: left;
+	position: relative;
+	margin-top: 230px;
+	margin-left: 350px;
+}
+
+.quote {
+	border-left: 3px solid #3E2B19 
+}
+
+/*navigation*/
+.main-nav {
+	font-family:"Courier New", Courier, monospace;
+	padding-top: 3px;
+	width: 250px;
+}
+
+.main-nav ul {
+	list-style: none;
+	margin-left: 40px;
+}
+.main-nav ul li {
+	margin-bottom: 7px;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+.main-nav ul li a {
+	color: #3E2B19
+}
+
+a:hover {
+	border-bottom: 2px solid #3E2B19;
+} 
+a:active {
+	border-bottom: 2px solid #3E2B19;
+}
+
+/* Clear Fix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
