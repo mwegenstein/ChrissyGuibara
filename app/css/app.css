@@ -1,57 +1,87 @@
+/*Fonts*/
+font-family: 'Open Sans', sans-serif;
+font-family: Georgia, "Times New Roman", Times, serif;
+
 
 /*Overides*/
 p {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
+	letter-spacing: 1px;
+	
 }
 
 
 /*Page Styling*/
 .header {
-	padding-left:25px;
-	position: fixed;
 	z-index: 100;
 	top: 5px;
 	left: 10px;
+	width: 100%;
+	position: fixed;
 }
 
 .content-container {
-	width: 800px;
-	float: left;
 	position: relative;
-	margin-top: 230px;
-	margin-left: 350px;
+	margin-top: 260px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
+/*Home Page*/
+.logo {
+	/*position: fixed;*/
+	width: 550px;
+	padding-left: 65px;
+	margin-left: 70px;
+}
+.image_home {
+	width: 950px;
+	margin: 0 auto;
+}
 .quote {
-	border-left: 3px solid #3E2B19 
+	border-left: 3px solid #3E2B19;
+}
+
+.words {
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*navigation*/
 .main-nav {
-	font-family:"Courier New", Courier, monospace;
-	padding-top: 3px;
-	width: 250px;
+	font-family: "Courier New", Courier, monospace;
+	width: 950px;
+	margin-left: 590px;
 }
 
 .main-nav ul {
 	list-style: none;
-	margin-left: 40px;
+	/*position: fixed;*/
+	display: inline;
+
 }
 .main-nav ul li {
-	margin-bottom: 7px;
-	font-size: 25px;
+	font-size: 20px;
 	letter-spacing: 1px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline;
+	text-align: center;
+	cursor: pointer;
 }
 .main-nav ul li a {
-	color: #3E2B19
+	color: #3E2B19;
+	display: inline;
+	cursor: pointer;
 }
 
 a:hover {
-	border-bottom: 2px solid #3E2B19;
+	border-bottom: 2px dashed #3E2B19;
+	cursor: pointer;
 } 
 a:active {
-	border-bottom: 2px solid #3E2B19;
+	border-bottom: 2px dashed #3E2B19;
+	cursor: pointer;
 }
 
 /* Clear Fix */
