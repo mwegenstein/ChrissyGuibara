@@ -4,13 +4,20 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 
 /*Overides*/
-p {
-	font-size: 16px;
-	letter-spacing: 1px;
-	
+
+.margin {
+	margin-bottom: 10px;
 }
 
+.about {
+	font-size: 14px;
+	letter-spacing: 1px;
+}
 
+.strong {
+	font-weight: bold;
+	color: #3E2B19;
+}
 /*Page Styling*/
 .header {
 	z-index: 100;
@@ -22,7 +29,7 @@ p {
 
 .content-container {
 	position: relative;
-	margin-top: 260px;
+	margin-top: 230px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -35,13 +42,10 @@ p {
 	padding-left: 65px;
 	margin-left: 70px;
 }
-.image_home {
-	width: 950px;
-	margin: 0 auto;
+.home-pad {
+	padding-top: 20px;
 }
-.quote {
-	border-left: 3px solid #3E2B19;
-}
+
 
 .words {
 	font-family: Georgia, "Times New Roman", Times, serif;
