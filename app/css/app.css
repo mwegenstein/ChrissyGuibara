@@ -2,9 +2,7 @@
 font-family: 'Open Sans', sans-serif;
 font-family: Georgia, "Times New Roman", Times, serif;
 
-
 /*Overides*/
-
 .margin {
 	margin-bottom: 10px;
 }
@@ -29,10 +27,22 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 .content-container {
 	position: relative;
-	margin-top: 230px;
+	margin-top: 215px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.border p {
+	border-left: 1px dashed #3E2B19;
+}
+
+.image-right {
+	padding-right: 10px;
+}
+
+.image-left {
+	padding-left: 10px;
 }
 
 /*Home Page*/
@@ -42,6 +52,14 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	padding-left: 65px;
 	margin-left: 70px;
 }
+.logo a {
+	display: inline-block;
+	text-decoration: none;
+}
+.logo a:hover {
+	display: none;
+}
+
 .home-pad {
 	padding-top: 20px;
 }
@@ -83,9 +101,30 @@ a:hover {
 	border-bottom: 2px dashed #3E2B19;
 	cursor: pointer;
 } 
-a:active {
+a.active {
 	border-bottom: 2px dashed #3E2B19;
 	cursor: pointer;
+}
+
+/*Footer*/
+.foot {
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+
+}
+
+.foot p {
+	margin: 0px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-style: italic;
+	padding-left: 10px;
+	/*text-align:left;*/
+}
+
+.foot a:hover {
+	border-bottom: none;
 }
 
 /* Clear Fix */
@@ -96,6 +135,12 @@ a:active {
 }
 .clearfix:after {
     clear: both;
+}
+
+/* About Page */
+#about-page section {
+	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 
