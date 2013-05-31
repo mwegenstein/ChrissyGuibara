@@ -32,7 +32,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 }
 .header .fader {
 	width: 100%;
-	height: 80px;
+	height: 85px;
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -89,7 +89,8 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 /*navigation*/
 .main-nav {
-	font-family: "Courier New", Courier, monospace;
+	/*font-family: "Courier New", Courier, monospace;*/
+	font-family: 'Gilda Display', serif;
 	margin-top: 108px;
 }
 
@@ -99,8 +100,8 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 }
 .main-nav ul li {
-	font-size: 20px;
-	letter-spacing: 1px;
+	font-size: 22px;
+	letter-spacing: 3px;
 	padding-right: 20px;
 	padding-left: 20px;
 	display: inline;
@@ -108,18 +109,28 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	cursor: pointer;
 }
 .main-nav ul li a {
-	color: #3E2B19;
+	/*color: #3E2B19;*/
+	/*color: #BEA586;*/
+	color: #A2825C;
 	display: inline;
 	cursor: pointer;
+	
+}
+.main-nav ul li a:hover {
+	cursor: pointer;
+	border-bottom: 1px solid #000;
+	color:#683A20;
 }
 
-a:hover {
-	border-bottom: 2px dashed #3E2B19;
+#active a{
 	cursor: pointer;
-} 
-a.active {
-	border-bottom: 2px dashed #3E2B19;
-	cursor: pointer;
+	color:#683A20;
+	border-bottom: 1px solid #683A20;
+	
+}
+
+ul li .active a {
+	color: #683A20;
 }
 
 /*Press Page*/
@@ -151,14 +162,19 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 }
 
 .collection-about {
-	font-size: 20px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	letter-spacing: 2px;
+	font-size: 25px;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family:'Parisienne', cursive;
+	/*font-family:'Rouge Script', cursive;*/
+	letter-spacing: 3px;
 	border-top: 1px solid #CFCCCB;
 	margin-top: 8px;
 	text-align: center;
 	color: #3E2B19;
+}
 
+.collections-padding {
+	padding: 100px;
 }
 
 /*Footer*/
