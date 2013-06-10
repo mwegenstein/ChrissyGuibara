@@ -16,11 +16,14 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	color:#9CB28D;
 	font-family: 'Over the Rainbow', cursive;
 	font-size: 20px;
-
 }
 
 .white {
 	background: #fff;
+}
+
+.invisible {
+	opacity: 0;
 }
 
 /*Page Styling*/
@@ -71,8 +74,9 @@ font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .logo img {
-	padding-top: 10px;
+	margin-top: 10px;
 	margin-left: 10px;
+	height: 115px;
 }
 .logo a {
 	display: inline-block;
@@ -94,7 +98,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 /*navigation*/
 .main-nav {
 	font-family: 'Gilda Display', serif;
-	margin-top: 107px;
+	margin-top: 65px;
 	text-align: right;
 }
 
@@ -123,6 +127,43 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	color: #9CB28D;
 }
 
+.sub-nav {
+	font-family: 'Over the Rainbow', cursive;
+	text-align: right;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+.sub-nav ul {
+	list-style: none;
+	width: 460px;
+	margin-left: 26px;
+	margin-bottom: 0px;
+}
+
+.sub-nav ul li {
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline;
+	text-align: center;
+	cursor: pointer;
+	color: 
+
+}
+
+.sub-nav ul li a {
+	color: #A2825C;
+	display: inline;
+	cursor: pointer;
+	
+}
+.sub-nav ul li a:hover {
+	cursor: pointer;
+	color: #9CB28D;
+}
+
 #active a{
 	cursor: pointer;
 	color: #9CB28D;
@@ -143,6 +184,66 @@ ul li .active a {
 	margin-right: 5px;
 }
 
+.img-wrap {
+	height: 235px;
+	width: 235px;
+	position: relative;
+}
+
+.p-title {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	background: rgba(184, 202, 190, 1);
+	-webkit-transition: visibility opacity 1s ease-in-out;
+	-moz-transition: visibility opacity 1s ease-in-out;
+	-o-transition: visibility opacity 1s ease-in-out;
+	transition: visibility opacity 1s ease-in-out;
+
+	visibility: hidden;
+	opacity: 0;
+}
+
+.p-title p {
+	font-size: 17px;
+	text-align: center;
+	font-family: 'Gilda Display', serif;
+	color: #fff;
+	line-height: 22px;
+}
+
+.p-title p.publication {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	letter-spacing: -1px;
+	top: 23px;
+	margin-bottom: 55px;
+	margin-top: 10px;
+}
+
+.p-title p.go {
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 16px;
+	letter-spacing: -1px;
+	position: absolute;
+	bottom: 23px;
+	margin-bottom: 0px;
+	
+}
+
+.go {
+	width: 215px;
+	height: 15px;
+}
+
+.img-wrap:hover .p-title {
+visibility: visible;
+  opacity: 1;
+}
+
 /*Collections*/
 
 .shadow li img {
@@ -154,7 +255,19 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 .collection {
 	width: 1000px;
 	margin: 0 auto;
-	padding-top: 17px;
+	margin-top: 275px;
+	cursor: pointer;
+}
+
+.collection * {
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+
+.collection .opaque {
+	opacity: 0.2;
 }
 
 .collection-about {
@@ -172,11 +285,17 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	padding: 100px;
 }
 
+/*Slider*/
+.slideshow-1 {
+	margin-top: 220px;
+}
+
 /*Footer*/
 .foot {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 1000px;
+	margin: 0 auto;
 }
 
 .foot p {
@@ -186,7 +305,9 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	font-size: 15px;
 	padding-left: 10px;
 	text-align: center;
-	
+
+
+
 }
 
 .foot a:hover {
@@ -195,9 +316,7 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 
 .foot a {
 	color: #A2825C;
-
 }
-
 
 
 /* Clear Fix */
@@ -215,6 +334,8 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	margin-bottom: 40px;
 	overflow: hidden;
 }
+
+
 
 
 
