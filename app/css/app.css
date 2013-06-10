@@ -286,9 +286,6 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 }
 
 /*Slider*/
-.slideshow-1 {
-	margin-top: 220px;
-}
 
 /*Footer*/
 .foot {
@@ -335,6 +332,17 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	overflow: hidden;
 }
 
+/*Slider*/
+
+#gallery-2 {
+  width: 100%;
+  background: #151515;
+  -webkit-user-select: none;
+  -moz-user-select: none;  
+  user-select: none;
+}
+
+#page-navigation { display: none; }
 
 
 
