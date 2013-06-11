@@ -2,20 +2,9 @@
 font-family: 'Open Sans', sans-serif;
 font-family: Georgia, "Times New Roman", Times, serif;
 
-/*Overides*/
+/*Utility Class*/
 .margin {
 	margin-bottom: 10px;
-}
-
-.about {
-	font-size: 14px;
-	letter-spacing: 1px;
-}
-
-.strong {
-	color:#9CB28D;
-	font-family: 'Over the Rainbow', cursive;
-	font-size: 20px;
 }
 
 .white {
@@ -24,6 +13,10 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 .invisible {
 	opacity: 0;
+}
+
+.space-image-top {
+	padding-top: 16px;
 }
 
 /*Page Styling*/
@@ -50,7 +43,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 .content-container {
 	position: relative;
-	margin-top: 210px;
+	margin-top: 188px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -90,12 +83,12 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	padding-top: 20px;
 }
 
-.words {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #181818;
+
+#home {
+	margin-top: 160px;
 }
 
-/*navigation*/
+/*Navigation*/
 .main-nav {
 	font-family: 'Gilda Display', serif;
 	margin-top: 65px;
@@ -174,6 +167,37 @@ font-family: Georgia, "Times New Roman", Times, serif;
 ul li .active a {
 	color: #683A20;
 }
+
+/*About Page*/
+
+.about {
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.words {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #262626;
+}
+
+.strong {
+	color:#9CB28D;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 20px;
+}
+
+.photo-align {
+	margin-top: 9px;
+}
+
+p.materials {
+	margin-top: 25px;
+}
+
+.materials-image {
+	margin-top: 8px;
+}
+
 
 /*Press Page*/
 .press-border li img {
@@ -255,7 +279,7 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 .collection {
 	width: 1000px;
 	margin: 0 auto;
-	margin-top: 275px;
+	margin-top: 213px;
 	cursor: pointer;
 }
 
@@ -267,7 +291,7 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 }
 
 .collection .opaque {
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .collection-about {
@@ -276,6 +300,7 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	letter-spacing: 2px;
 	border-top: 1px solid #9CB28D;
 	margin-top: 12px;
+	margin-bottom: 15px;
 	padding-top: 8px;
 	text-align: center;
 	color: #9CB28D;
@@ -285,11 +310,31 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	padding: 100px;
 }
 
+p.description {
+	font-family: 'Gilda Display', serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	/*color: #A2825C;*/
+	color: #262626;
+}
+
+.collections-margin{
+	margin-right: 15px;
+	margin-left: 15px;
+}
 /*Slider*/
+#watercast-slider{
+	margin-top: 175px;
+}
+
+#watercast-slider img {
+	/*border: 1px solid #000;*/
+}
+
 
 /*Footer*/
 .foot {
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	width: 1000px;
 	margin: 0 auto;
@@ -331,18 +376,6 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	margin-bottom: 40px;
 	overflow: hidden;
 }
-
-/*Slider*/
-
-#gallery-2 {
-  width: 100%;
-  background: #151515;
-  -webkit-user-select: none;
-  -moz-user-select: none;  
-  user-select: none;
-}
-
-#page-navigation { display: none; }
 
 
 
