@@ -41,7 +41,7 @@ App.collection = (function($) {
         },
         controlNavigation: 'thumbnails',
         thumbs: {
-          orientation: 'vertical',
+          orientation: 'horizontal',
           paddingBottom: 4,
           appendSpan: true
         },
@@ -59,8 +59,10 @@ App.collection = (function($) {
 
   self.init = function() {
     createSlider();
+    // showImages();
   }
 
   return self;
 })(jQuery);
+
 
