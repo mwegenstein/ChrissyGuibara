@@ -41,21 +41,20 @@ App.collection = (function($) {
         },
         controlNavigation: 'thumbnails',
         thumbs: {
-          orientation: 'horizontal',
-          paddingBottom: 4,
+          orientation: 'vertical',
+          paddingBottom: 6,
           appendSpan: true
         },
         transitionType:'fade',
         autoScaleSlider: true, 
-        autoScaleSliderWidth: 960,     
+        autoScaleSliderWidth: 1000,     
         autoScaleSliderHeight: 600,
         loop: true,
         arrowsNav: false,
         keyboardNavEnabled: true,
-        globalCaption:true
-
-     });
-  };
+        globalCaption:true,
+         });
+    };
 
   self.init = function() {
     createSlider();
