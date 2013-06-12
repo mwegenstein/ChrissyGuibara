@@ -1,7 +1,7 @@
 F/* v1.0.5 */
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
 .royalSlider {
-	width: 800px;
+	width: 600px;
 	height: 400px;
 	position: relative;
 	direction: ltr;
@@ -127,7 +127,7 @@ F/* v1.0.5 */
 	top: 0;
 	display: block;
 	overflow: hidden;
-	
+	padding-left: 110px;  /*ADDED THIS IN MW*/
 	height: 100%;
 	width: 100%;
 }

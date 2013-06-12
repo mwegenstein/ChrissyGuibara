@@ -120,6 +120,9 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	color: #9CB28D;
 }
 
+.main-nav ul li a:hover img {
+	cursor: pointer;
+}
 .sub-nav {
 	font-family: 'Over the Rainbow', cursive;
 	text-align: right;
@@ -326,11 +329,15 @@ p.description {
 #watercast-slider{
 	margin-top: 175px;
 	visibility: hidden;
-	/*display: none;*/
+	width: 100%;
+  	/*background: #151515;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;  
+  user-select: none;
 }
 
 #watercast-slider img {
-	/*border: 1px solid #000;*/
+
 }
 
 .invisible {

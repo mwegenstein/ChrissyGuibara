@@ -37,22 +37,23 @@ App.collection = (function($) {
     $(".royalSlider").royalSlider({
         fullscreen: {
           enabled: true,
-          nativeFS: true
+          nativeFS: true,
         },
         controlNavigation: 'thumbnails',
         thumbs: {
           orientation: 'vertical',
-          paddingBottom: 6,
+          paddingBottom: 4,
           appendSpan: true
         },
         transitionType:'fade',
         autoScaleSlider: true, 
-        autoScaleSliderWidth: 1000,     
-        autoScaleSliderHeight: 600,
+        autoScaleSliderWidth: 1500,     
+        autoScaleSliderHeight: 700,
         loop: true,
         arrowsNav: false,
         keyboardNavEnabled: true,
         globalCaption:true,
+        imageScaleMode: 'fit-if-smaller',
          });
     };
 

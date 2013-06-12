@@ -132,13 +132,11 @@
 	height: 72px;
 }
 .rsUni .rsThumbsVer {
-	width: 117px;
+	width: 101px;
 	height: 100%;
 	position: absolute;
 	top: 0;
-	right: auto;
 	left: 0;
-	margin-left: 10px;
 	color: #A2825C;*
 	color: rgba (162,130,92,0.9);
 	-webkit-backface-visibility: hidden;
@@ -155,12 +153,15 @@
 .rsUni .rsThumb {
 	float: left;
 	overflow: hidden;
-	width: 107px;
-	height: 79px;
+	width: 100px;
+	height: 67px;
 }
 .rsUni .rsThumb img {
 	width: 100%;
 	height: 100%;
+	opacity: 0.6;
+	filter: alpha(opacity=30);
+	-webkit-backface-visibility: hidden;
 }
 .rsUni .rsThumb.rsNavSelected {
 	/*background:#9CB28D;*/
@@ -168,7 +169,7 @@
 
 }
 .rsUni .rsThumb.rsNavSelected img {
-	opacity: 0.5;
+	opacity: 1;
 	filter: alpha(opacity=30);
 	-webkit-backface-visibility: hidden;
 	width: 100%;
@@ -469,8 +470,8 @@
 .rsUni .rsGCaption {
 	position: absolute;
 	float: none;
-	bottom: 13px;
-	left: 250px;
+	bottom: -8px;
+	left: 334px;
 	text-align: center;
 
 	color: #A2825C;
