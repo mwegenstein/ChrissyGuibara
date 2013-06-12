@@ -88,6 +88,18 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	margin-top: 188px;
 }
 
+p.zaarly {
+	position: absolute;
+	font-family:'Gilda Display', serif;
+	font-size:8px;
+	top: 195px;
+	left:264px;
+}
+
+.zaarly a {
+	color: #000;
+}
+
 /*Navigation*/
 .main-nav {
 	font-family: 'Gilda Display', serif;

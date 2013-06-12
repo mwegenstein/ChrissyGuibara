@@ -470,15 +470,17 @@
 .rsUni .rsGCaption {
 	position: absolute;
 	float: none;
-	bottom: -8px;
-	left: 334px;
+	bottom: -19px;
+	left: 0px;
 	text-align: center;
+
+	background: #fff;
 
 	color: #A2825C;
 	padding: 5px;
-	width: auto;
+	width: 970px;
 	font-size: 13px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	letter-spacing: 2px;
-	border-radius: 1px;
+	border-radius: 2px;
 }
