@@ -61,6 +61,12 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	padding-left: 10px;
 }
 
+.social-image {
+	display: inline;
+	width: 1000px;
+	margin-left: 468px;
+}
+
 /*Home Page*/
 .logo {
 	padding-left: 0px;
