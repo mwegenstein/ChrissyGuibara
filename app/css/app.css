@@ -43,7 +43,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 .content-container {
 	position: relative;
-	margin-top: 188px;
+	margin-top: 180px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
@@ -81,9 +81,9 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	display: inline-block;
 	text-decoration: none;
 }
-.logo a:hover {
+/*.logo a:hover {
 	display: none;
-}
+}*/
 
 .home-pad {
 	padding-top: 20px;
@@ -91,7 +91,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 
 #home {
-	margin-top: 188px;
+	margin-top: 178px;
 }
 
 p.zaarly {
@@ -212,7 +212,7 @@ ul li .active a {
 }
 
 p.materials {
-	margin-top: 25px;
+	margin-top: 16px;
 }
 
 .materials-image {

@@ -53,7 +53,6 @@ App.collection = (function($) {
         arrowsNav: false,
         keyboardNavEnabled: true,
         globalCaption:true,
-        imageScaleMode: 'fit-if-smaller',
          });
     };
 
