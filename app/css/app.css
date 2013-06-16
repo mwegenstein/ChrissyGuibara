@@ -604,16 +604,19 @@ ul li .active a {
 	width: 500px;
 	margin-right: auto;
 	margin-left: auto;
+}
 
 /*Press Page*/
 .top-grid {
-	margin-right: 5px;
+	/*margin-right: 5px;*/
 }
 
 .img-wrap {
-	height: 235px;
-	width: 235px;
+	height: 175px;
+	width: 175px;
 	position: relative;
+	padding-left: 10px;
+
 }
 
 .p-title {
@@ -622,7 +625,7 @@ ul li .active a {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 5px;
+	margin-left: 10px;
 	background: rgba(184, 202, 190, 1);
 	-webkit-transition: visibility opacity 1s ease-in-out;
 	-moz-transition: visibility opacity 1s ease-in-out;
@@ -634,7 +637,7 @@ ul li .active a {
 }
 
 .p-title p {
-	font-size: 17px;
+	font-size: 12px;
 	text-align: center;
 	font-family: 'Gilda Display', serif;
 	color: #fff;
@@ -643,27 +646,32 @@ ul li .active a {
 
 .p-title p.publication {
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size: 16px;
+	font-size: 11px;
 	letter-spacing: -1px;
 	top: 23px;
 	margin-bottom: 55px;
 	margin-top: 10px;
+	color: #fff;
+
 }
 
 .p-title p.go {
 	font-family: Georgia, "Times New Roman", Times, serif; 
-	font-size: 16px;
+	font-size: 11px;
 	letter-spacing: -1px;
 	position: absolute;
 	bottom: 23px;
 	margin-bottom: 0px;
+	visibility: hidden;
 	
 }
 
 .go {
 	width: 215px;
 	height: 15px;
+	visibility: hidden;
 }
+
 
 
 
