@@ -497,6 +497,7 @@ p.description {
 	text-align: left;
 	padding-top: 5px;
 	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
 .sub-nav ul {
@@ -606,6 +607,14 @@ ul li .active a {
 	margin-left: auto;
 }
 
+.image-right {
+	padding-right: 5px;
+}
+
+.image-left {
+	padding-left: 5px;
+}
+
 /*Press Page*/
 .top-grid {
 	/*margin-right: 5px;*/
@@ -673,6 +682,35 @@ ul li .active a {
 }
 
 
+/*About Page*/
+
+.about {
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+.words {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #262626;
+}
+
+.strong {
+	color:#9CB28D;
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 10px;
+}
+
+.photo-align {
+	margin-top: 9px;
+}
+
+p.materials {
+	margin-top: 16px;
+}
+
+.materials-image {
+	margin-top: 8px;
+}
 
 
 
