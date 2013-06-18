@@ -15,8 +15,8 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	opacity: 0;
 }
 
-.space-image-top {
-	padding-top: 16px;
+.image-top img {
+	padding-top: 17px;
 }
 
 /*Page Styling*/
@@ -43,7 +43,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 .content-container {
 	position: relative;
-	margin-top: 180px;
+	margin-top: 190px;
 }
 
 .border p {
@@ -80,8 +80,8 @@ font-family: Georgia, "Times New Roman", Times, serif;
 .logo img {
 	margin-top: 10px;
 	margin-left: 10px;
-	height: 115px;
-	width: 350px;
+	/*height: 115px;*/
+	/*width: 350px;*/
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -103,11 +103,13 @@ font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 p.zaarly {
-	position: absolute;
+	position: relative;
 	font-family:'Gilda Display', serif;
 	font-size:8px;
-	top: 195px;
-	left:264px;
+	top: -11px;
+	text-align: right;
+	padding-right: 2px;
+	/*left:356px;*/
 }
 
 .zaarly a {
@@ -158,8 +160,6 @@ p.zaarly {
 
 .sub-nav ul {
 	list-style: none;
-	width: 460px;
-	margin-left: 26px;
 	margin-bottom: 0px;
 }
 
@@ -220,7 +220,7 @@ ul li .active a {
 }
 
 p.materials {
-	margin-top: 16px;
+	margin-top: 12px;
 }
 
 .materials-image {
@@ -306,8 +306,6 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 }
 
 .collection {
-	width: 1000px;
-	margin: 0 auto;
 	margin-top: 213px;
 	cursor: pointer;
 }
@@ -335,15 +333,10 @@ box-shadow: 0 0 3px 3px #CFCCCB;
 	color: #9CB28D;
 }
 
-.collections-padding {
-	padding: 100px;
-}
-
 p.description {
 	font-family: 'Gilda Display', serif;
 	font-size: 13px;
 	letter-spacing: 1px;
-	/*color: #A2825C;*/
 	color: #262626;
 }
 
@@ -359,15 +352,12 @@ p.description {
 	min-height: 100%;
 	overflow: hidden;
 
-  	/*background: #151515;*/
+/*background: #151515;*/
   -webkit-user-select: none;
   -moz-user-select: none;  
   user-select: none;
 }
 
-#watercast-slider img {
-	
-}
 
 .invisible {
 	display: none;
@@ -416,10 +406,10 @@ p.description {
 }
 
 /* About Page */
-#about-page section {
+/*#about-page section {
 	margin-bottom: 40px;
 	overflow: hidden;
-}
+}*/
 
 /*MOBILE STARTS HERE*/
 
@@ -448,8 +438,9 @@ p.description {
 	.logo img {
 		margin-top: 10px;
 		margin-left: 10px;
-		height: 54px;
-		width: 150px;
+		max-width: 90%;
+		max-height:90%;
+		text-align: center;
 
 	}
 
@@ -498,8 +489,7 @@ p.description {
 
 	.sub-nav ul {
 		list-style: none;
-		width: 460px;
-		/*margin-left: 26px;*/
+		width: 100%;
 		margin-bottom: 0px;
 	}
 
@@ -609,13 +599,10 @@ p.description {
 	}
 
 	/*Press Page*/
-	.top-grid {
-		/*margin-right: 5px;*/
-	}
 
 	.img-wrap {
-		height: 175px;
-		width: 175px;
+		/*height: 175px;
+		width: 175px;*/
 		position: relative;
 		padding-left: 10px;
 
@@ -682,6 +669,10 @@ p.description {
 		letter-spacing: 1px;
 	}
 
+	.inspiration {
+		margin-top: 10px;
+	}
+
 	.words {
 		font-family: Georgia, "Times New Roman", Times, serif;
 		color: #262626;
@@ -704,13 +695,14 @@ p.description {
 	.materials-image {
 		margin-top: 8px;
 	}
+	/*Collection Page*/
+
+	.collection {
+		margin-top: 25px;
+		cursor: pointer;
+	}
+
 }
-
-
-
-
-
-
 
 
 
