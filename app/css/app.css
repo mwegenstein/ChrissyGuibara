@@ -345,6 +345,7 @@ p.description {
 	margin-left: 15px;
 }
 /*Slider*/
+
 #watercast-slider{
 	margin-top: 175px;
 	visibility: hidden;
@@ -352,27 +353,36 @@ p.description {
 	min-height: 100%;
 	overflow: hidden;
 
-/*background: #151515;*/
   -webkit-user-select: none;
   -moz-user-select: none;  
   user-select: none;
 }
-
 
 .invisible {
 	display: none;
 	visibility: hidden;
 }
 
+.royalSlider .rsThumbVer {
+	right: auto;
+	left: 0;
+}
+
+
+.royalSlider .rsOverflow {
+	margin-left: 40px 		
+}/*whatever width of thumbnails is*/
+
+
+
 /*Footer*/
-.foot {
+
+.foot{
 	padding-top: 15px;
 	padding-bottom: 20px;
-	/*width: 1000px;*/
 	margin: 0 auto;
 	width: 100%
 }
-
 
 .foot p {
 	margin: 0px auto;
@@ -381,8 +391,8 @@ p.description {
 	font-size: 15px;
 	padding-left: 10px;
 	text-align: center;
-
-
+	padding-top: 5px;
+	padding-bottom: 5px;
 
 }
 
@@ -413,7 +423,7 @@ p.description {
 
 /*MOBILE STARTS HERE*/
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width:700px) {
 
 	.header {
 		z-index: 100;
@@ -641,7 +651,6 @@ p.description {
 		margin-bottom: 55px;
 		margin-top: 10px;
 		color: #fff;
-
 	}
 
 	.p-title p.go {
@@ -651,8 +660,7 @@ p.description {
 		position: absolute;
 		bottom: 23px;
 		margin-bottom: 0px;
-		visibility: hidden;
-		
+		visibility: hidden;	
 	}
 
 	.go {
@@ -722,6 +730,8 @@ p.description {
 	}
 
 }
+
+
 
 
 

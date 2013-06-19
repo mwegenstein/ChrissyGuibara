@@ -29,7 +29,7 @@ App.collections = (function($) {
   return self;
 })(jQuery);
 
-// Collection Module
+// Slider Module
 App.collection = (function($) {
   var self = {};
 
@@ -43,12 +43,13 @@ App.collection = (function($) {
         thumbs: {
           orientation: 'vertical',
           paddingBottom: 4,
-          appendSpan: true
+          appendSpan: true,
+          // fitInViewport: false,
         },
-        transitionType:'fade',
+        transitionType:'move',
         autoScaleSlider: true, 
-        autoScaleSliderWidth: 1500,     
-        autoScaleSliderHeight: 700,
+        autoScaleSliderWidth: 1300,     
+        autoScaleSliderHeight: 550,
         loop: true,
         arrowsNav: false,
         keyboardNavEnabled: true,
