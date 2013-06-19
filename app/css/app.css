@@ -702,6 +702,25 @@ p.description {
 		cursor: pointer;
 	}
 
+	.collection-about {
+		font-size: 18px;
+		font-family:'Over the Rainbow', cursive;
+		letter-spacing: 2px;
+		border-top: 1px solid #9CB28D;
+		margin-top: 12px;
+		margin-bottom: 15px;
+		padding-top: 8px;
+		text-align: center;
+		color: #9CB28D;
+	}
+
+	p.description {
+		font-family: 'Gilda Display', serif;
+		font-size: 10px;
+		letter-spacing: 1px;
+		color: #262626;
+	}
+
 }
 
 
