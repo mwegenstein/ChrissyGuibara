@@ -204,6 +204,10 @@ ul li .active a {
 	letter-spacing: 1px;
 }
 
+.about a {
+	color: #9CB28D;
+}
+
 .words {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #262626;
@@ -347,7 +351,7 @@ p.description {
 /*Slider*/
 
 #watercast-slider{
-	margin-top: 175px;
+	margin-top: 155px;
 	visibility: hidden;
 	width: 100%;
 	min-height: 100%;
@@ -378,7 +382,7 @@ p.description {
 /*Footer*/
 
 .foot{
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	margin: 0 auto;
 	width: 100%
@@ -391,7 +395,6 @@ p.description {
 	font-size: 15px;
 	padding-left: 10px;
 	text-align: center;
-	padding-top: 5px;
 	padding-bottom: 5px;
 
 }

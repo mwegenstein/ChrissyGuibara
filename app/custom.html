@@ -49,17 +49,17 @@
          <div class="small-12 large-12 columns">
           <div class="sub-nav">    
             <ul>
-              <li class="sub-item">
+              <li class="sub-item" id="active">
+                <a href="custom.html">custom</a>
+              </li>
+               <li class="sub-item" >
+                <a href="engagement.html">engagement</a>
+              </li>
+               <li class="sub-item" >
                 <a href="watercast.html">watercast</a>
               </li>
                <li class="sub-item">
                 <a href="private.html">private</a>
-              </li>
-               <li class="sub-item" id="active">
-                <a href="custom.html">custom</a>
-              </li>
-               <li class="sub-item">
-                <a href="engagement.html">engagement</a>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@
           <!-- Slider starts here -->
         <div class="royalSlider rsUni" id="watercast-slider">
           <a class="rsImg invisible" data-rsbigimg="images/custom/violin.jpg" href="images/custom/violin.jpg" data-rsw="600" data-rsh="400">
-          violin earrings - 18k
+          <figure class="rsCaption">violin earrings - 18k, diamonds</figure>
           <img width="60" height="40" class="rsTmb" src="images/custom/violin.jpg">
           </a>
 
@@ -89,7 +89,7 @@
           </a>
 
           <a class="rsImg invisible" data-rsbigimg="images/custom/tiara.jpg" href="images/custom/tiara.jpg" data-rsw="600" data-rsh="400">
-          tiara - diamonds, sapphires, platinum
+          tiara - platinum, diamonds, sapphires, 
            <img width="60" height="40" class="rsTmb" src="images/custom/tiara.jpg">
           </a>
 
@@ -144,7 +144,7 @@
           </a>
   
           <a class="rsImg invisible" data-rsbigimg="images/custom/circle.jpg" href="images/custom/circle.jpg" data-rsw="600" data-rsh="400">
-            double infinity pendant - 14k, sterling silver, diamond
+            twist pendnt - 14k, diamonds
             <img width="60" height="40" class="rsTmb" src="images/custom/circle.jpg">
           </a>
 
@@ -203,10 +203,17 @@ $(function(){
       App.collection.init();
       $("#watercast-slider").css("visibility","visible")
       var slider = $(".royalSlider").data('royalSlider');
-        slider.ev.on('rsAfterContentSet', function(e, slideObject) {
+      
+      slider.ev.on('rsAfterContentSet', function(e, slideObject) {
         $('.royalSlider').removeClass('invisible');
       });  
 
+//       slider.ev.on('rsBeforeAnimStart', function(event) {
+//     console.log($(".rsGCaption").text().trim())
+//     $(".rsGCaption").addClass('gsUnchangedCaption');
+//     $(".rsGCaption").removeClass('rsGCaption');
+
+// });
     
 });
 

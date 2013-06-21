@@ -46,7 +46,7 @@ App.collection = (function($) {
           appendSpan: true,
           // fitInViewport: false,
         },
-        transitionType:'move',
+        transitionType:'fade',
         autoScaleSlider: true, 
         autoScaleSliderWidth: 1300,     
         autoScaleSliderHeight: 550,
@@ -55,6 +55,8 @@ App.collection = (function($) {
         keyboardNavEnabled: true,
         globalCaption:true,
         imageScaleMode:'fit-if-smaller',
+        moveEffect: 'none',
+        transitionSpeed:550,
          });
     };
 

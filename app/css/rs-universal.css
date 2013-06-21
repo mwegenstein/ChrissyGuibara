@@ -285,7 +285,7 @@
 	position: absolute;
 	float: none;
 	bottom: 0px;
-	left: 0px;
+	left: 0;
 	text-align: center;
 	margin: 0 auto;
 
@@ -293,7 +293,6 @@
 
 	color: #A2825C;
 	padding: 2px 8px;
-	width: 1000px;
 	font-size: 13px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	letter-spacing: 2px;
@@ -306,14 +305,13 @@
 			position: absolute;
 			float: none;
 			bottom: 0px;
-			left: 0px;
+			left:0;
 			text-align: center;
 
 			background: transparent;
 
 			color: #A2825C;
 			padding: 5px;
-			width: 500px;
 			font-size: 8px;
 			font-family: Georgia, "Times New Roman", Times, serif;
 			letter-spacing: 2px;
