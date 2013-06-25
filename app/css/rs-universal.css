@@ -177,9 +177,10 @@
 .rsUni.rsWithThumbsVer .rsThumbsArrow {
 	width: 100%;
 	height: 20px;
+
 }
 .rsUni.rsWithThumbsVer .rsThumbsArrowLeft { top: 0; left: 0; }
-.rsUni.rsWithThumbsVer .rsThumbsArrowRight { bottom: 0;  left: 0; }
+.rsUni.rsWithThumbsVer .rsThumbsArrowRight { bottom: 0;  left: 0; background-color: #fff; }
 
 .rsUni.rsWithThumbsHor .rsThumbsArrowLeft { left: 0; top: 0; }
 .rsUni.rsWithThumbsHor .rsThumbsArrowRight { right: 0; top:0; }
@@ -196,10 +197,10 @@
 	background: url('rs-default-inverted.png') transparent;
 }
 
-.rsUni.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -128px -32px; }
+.rsUni.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -128px -35px; }
 .rsUni.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn { background-position: -128px -48px; }
 
-.rsUni.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -144px -32px; }
+.rsUni.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn { background-position: -144px -34px; }
 .rsUni.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn { background-position: -144px -48px; }
 
 .rsUni .rsThumbsArrowDisabled { display: none !important; }

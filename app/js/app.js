@@ -1,3 +1,4 @@
+
 var App = App || {};
 
 App.common = (function($){
@@ -44,6 +45,7 @@ App.collection = (function($) {
           orientation: 'vertical',
           paddingBottom: 4,
           appendSpan: true,
+          spacing: 8,
           // fitInViewport: false,
         },
         transitionType:'fade',
