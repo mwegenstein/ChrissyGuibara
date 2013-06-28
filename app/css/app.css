@@ -454,8 +454,11 @@ p.description {
 		max-width: 90%;
 		max-height:90%;
 		text-align: center;
-
 	}
+
+	.image-top img {
+	padding-top: 13px;
+}
 
 	/*Navigation*/
 	.main-nav {
@@ -497,7 +500,7 @@ p.description {
 		text-align: left;
 		padding-top: 5px;
 		margin-bottom: 0px;
-		margin-top: 20px;
+		margin-top: 5px;
 	}
 
 	.sub-nav ul {

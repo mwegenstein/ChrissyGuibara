@@ -303,7 +303,8 @@
 
 @media screen and (max-width: 700px) {
 		.rsUni .rsGCaption {
-			position: absolute;
+		visibility: hidden;
+		/*	position: absolute;
 			float: none;
 			bottom: 0px;
 			left:0;
@@ -313,11 +314,10 @@
 
 			color: #A2825C;
 			padding: 5px;
-			font-size: 8px;
+			font-size: 6px;
 			font-family: Georgia, "Times New Roman", Times, serif;
-			letter-spacing: 2px;
 			border-radius: 2px;
-			-webkit-backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;*/
 		}
 	}
 
