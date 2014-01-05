@@ -286,12 +286,10 @@
 	position: absolute;
 	float: none;
 	bottom: 0px;
-	left: 0;
+	left: 18%;
 	text-align: center;
 	margin: 0 auto;
-
 	background: transparent;
-
 	color: #A2825C;
 	padding: 2px 8px;
 	font-size: 13px;
