@@ -69,7 +69,11 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	width: 100%;
 	height: 100%
 	
+}
 
+.foot .sign-up p {
+	padding-top: 20px;
+	font-size: 12px;
 }
 
 /*Home Page*/
